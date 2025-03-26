@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/813269/pexels-photo-813269.jpeg?cs=srgb&dl=pexels-minan1398-813269.jpg&fm=jpg);
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2, label, p {
+    color: white;
+    transition: 0.3s;
+}
+
+body.light-mode {
+    background-color: rgba(255, 255, 255, 0.9); /* Light overlay to brighten */
+    color: black;
+}
+
+
+body.light-mode .planet-card {
+    background-color: #ddd;
+    color: black;
+}
+
+body.light-mode select {
+    background-color: #fff;
+    color: black;
+}
+
+body.light-mode button {
+    background-color: #007bff;
+    color: white;
+}
+
+body.light-mode button:hover {
+    background-color: #0056b3;
+}
+
+#planet-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.planet-card {
+    width: 200px;
+    padding: 10px;
+    background-color: #222;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.planet-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+select {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #222;
+    color: white;
+}
+
+#favorites-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #ff9900;
+}

@@ -1,0 +1,125 @@
+{
+    "planets": [
+      {
+        "id": 1,
+        "name": "Mercury",
+        "type": "terrestrial",
+        "image": "https://science.nasa.gov/wp-content/uploads/2024/03/pia15162-mercury-basins-messenger-16x9-1.jpg?resize=1536,864",
+        "description": "The smallest planet in our solar system and closest to the Sun. It has extreme temperatures and no atmosphere.",
+        "distanceFromSun": "57.9 million",
+        "moons": 0
+      },
+      {
+        "id": 2,
+        "name": "Venus",
+        "type": "terrestrial",
+        "image": "https://science.nasa.gov/wp-content/uploads/2024/03/venus-mariner-10-pia23791-fig2-16x9-1.jpg?resize=1536,864",
+        "description": "Venus has a thick, toxic atmosphere and is the hottest planet due to its runaway greenhouse effect.",
+        "distanceFromSun": "108.2 million",
+        "moons": 0
+      },
+      {
+        "id": 3,
+        "name": "Earth",
+        "type": "terrestrial",
+        "image": "https://science.nasa.gov/wp-content/uploads/2024/03/blue-marble-apollo-17-16x9-1.jpg?resize=1536,864",
+        "description": "The only planet known to support life, Earth has a diverse climate and a protective atmosphere. Our home planet is the third planet from the Sun, and the fifth largest planet.",
+        "distanceFromSun": "149.6 million",
+        "moons": 1
+      },
+      {
+        "id": 4,
+        "name": "Mars",
+        "type": "terrestrial",
+        "image": "https://science.nasa.gov/wp-content/uploads/2024/03/mars-full-globe-16x9-1.jpg?resize=1536,864",
+        "description": "Known as the Red Planet, Mars has the largest volcano in the solar system and signs of ancient water.",
+        "distanceFromSun": "227.9 million",
+        "moons": 2
+      },
+      {
+        "id": 5,
+        "name": "Jupiter",
+        "type": "gas giant",
+        "image": "https://science.nasa.gov/wp-content/uploads/2024/03/jupiter-marble-pia22946-16x9-1.jpg?resize=1536,864",
+        "description": "The largest planet, Jupiter has a Great Red Spot—a giant storm—and dozens of moons.",
+        "distanceFromSun": "778.3 million",
+        "moons": 79
+      },
+      {
+        "id": 6,
+        "name": "Saturn",
+        "type": "gas giant",
+        "image": "https://science.nasa.gov/wp-content/uploads/2023/05/saturn-farewell-pia21345-sse-banner-1920x640-1.jpg?resize=1536,512",
+        "description": "Famous for its stunning ring system, Saturn is a gas giant with more than 80 moons.",
+        "distanceFromSun": "1.43 billion",
+        "moons": 83
+      },
+      {
+        "id": 7,
+        "name": "Uranus",
+        "type": "gas giant",
+        "image": "https://science.nasa.gov/wp-content/uploads/2024/03/uranus-pia18182-16x9-1.jpg?resize=1536,864",
+        "description": "An ice giant with a unique sideways rotation, Uranus has a faint ring system.",
+        "distanceFromSun": "2.87 billion",
+        "moons": 27
+      },
+      {
+        "id": 8,
+        "name": "Neptune",
+        "type": "gas giant",
+        "image": "https://science.nasa.gov/wp-content/uploads/2024/03/pia01492-neptune-full-disk-16x9-1.jpg?resize=1536,864",
+        "description": "The windiest planet, Neptune has a deep blue color and a large storm called the Great Dark Spot.",
+        "distanceFromSun": "4.5 billion",
+        "moons": 14
+      }
+    ],
+  
+  "dwarfPlanets": [
+    {
+      "id": 9,
+      "name": "Pluto",
+      "type": "dwarf",
+      "image": "https://science.nasa.gov/wp-content/uploads/2024/03/pluto-new-horizons-pia20291-16x9-1.jpg?resize=1536,864",
+      "description": "Once considered the ninth planet, Pluto is now classified as a dwarf planet in the Kuiper Belt.",
+      "distanceFromSun": "5.9 billion",
+      "moons": 5
+    },
+    {
+      "id": 10,
+      "name": "Ceres",
+      "type": "dwarf",
+      "image": "https://science.nasa.gov/wp-content/uploads/2024/03/ceres-dawn-pia19562-16x9-1.jpg?resize=1536,864",
+      "description": "The largest object in the asteroid belt, Ceres is the only dwarf planet in the inner solar system.",
+      "distanceFromSun": "414 million",
+      "moons": 0
+    },
+    {
+      "id": 11,
+      "name": "Eris",
+      "type": "dwarf",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/e/ErisArtistConcept1200w.jpg?w=1200&h=900&fit=clip&crop=faces%2Cfocalpoint",
+      "description": "Slightly smaller than Pluto, Eris caused the reclassification of planets due to its discovery.",
+      "distanceFromSun": "10.1 billion",
+      "moons": 1
+    },
+    {
+      "id": 12,
+      "name": "Haumea",
+      "type": "dwarf",
+      "image": "https://science.nasa.gov/wp-content/uploads/2024/03/haumea-30jun2015-22-28ok2-final-16x9-1.jpg?w=231",
+      "description": "An oddly shaped dwarf planet with a rapid rotation, located in the Kuiper Belt.",
+      "distanceFromSun": "6.4 billion",
+      "moons": 2
+    },
+    {
+      "id": 13,
+      "name": "Makemake",
+      "type": "dwarf",
+      "image": "https://science.nasa.gov/wp-content/uploads/2024/03/dwarf-planet-makemake-16x9-1.jpg?resize=1536,864",
+      "description": "A bright dwarf planet in the Kuiper Belt, Makemake has a reddish color similar to Pluto.",
+      "distanceFromSun": "6.85 billion",
+      "moons": 1
+    }
+  ]
+}
+  

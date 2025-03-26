@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🌌 Space Explorer</h1>
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    
+    <h2>⭐ Favorites</h2>
+    <div id="favorites-list"></div>
+
+    <label for="filter">Filter by Type:</label>
+    <select id="filter">
+        <option value="all">All</option>
+        <option value="terrestrial">Terrestrial Planets</option>
+        <option value="gas giant">Gas Giants</option>
+        <option value="dwarf">Dwarf Planets</option>
+    </select>
+    
+    <div id="planet-details"></div>
+    <div id="planet-list"></div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
